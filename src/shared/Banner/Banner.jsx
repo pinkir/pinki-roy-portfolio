@@ -15,7 +15,7 @@ const Banner = () => {
 return (
     <>
         <div>
-            <div className="text-center text-white text-5xl font-bold pt-40 pb-72">
+            <div className="text-center text-white text-5xl font-bold pt-56 pb-72">
                 <h1>Hi! I am Pinki,</h1>
                 <p>I am a {' '}
                     <span style={{ color: '	#ffd700', fontWeight: 'bold' }}>
