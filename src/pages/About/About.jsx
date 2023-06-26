@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const About = () => {
     return (
-        <div className='col lg:flex justify-center gap-5 mt-40'>
+        <div id='about' className='col lg:flex justify-center gap-5 mt-40'>
             <Fade left>
                 <div className='drop-shadow-lg'>
                     <img className='h-[400px] rounded-full  ' src={about} alt="" />

@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 const Home = () => {
     return (
-        <div>
+        <div >
             <About></About>
             <Skills></Skills>
             <Projects></Projects>

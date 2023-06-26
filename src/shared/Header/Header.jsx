@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import '../Header/Header.css'
 import Banner from '../Banner/Banner';
 import bg from '../../images/bg.jpg'
@@ -9,11 +9,11 @@ const Header = () => {
             <nav className='col lg:flex justify-around items-center p-5 text-white bg-black bg-opacity-50 fixed z-10 w-full mx-auto'>
                 <h3 className='text-3xl font-bold'>PINKI ROY</h3>
                 <div className='text-base'>
-                    <Link to='/' className='mr-4'>Home</Link>
-                    <Link to='/' className='mr-4'>About</Link>
-                    <Link to='/' className='mr-4'>Skills</Link>
-                    <Link to='/' className='mr-4'>Projects</Link>
-                    <Link to='/' className='mr-4'>Blog</Link>
+                    <Link to='home' spy={true} smooth={true} offset={-100} duration={500}  className='mr-4'>Home</Link>
+                    <Link to='about' spy={true} smooth={true} offset={-100} duration={500} className='mr-4'>About</Link>
+                    <Link to='skills' spy={true} smooth={true} offset={-100} duration={500}  className='mr-4'>Skills</Link>
+                    <Link to='projects' spy={true} smooth={true} offset={50} duration={500}  className='mr-4'>Projects</Link>
+                    <Link to='blog' spy={true} smooth={true} offset={50} duration={500}  className='mr-4'>Blog</Link>
                 </div>
 
             </nav>

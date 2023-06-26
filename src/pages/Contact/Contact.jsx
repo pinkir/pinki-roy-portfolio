@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaMailBulk, FaPhone } from 'react-ico
 import contact from '../../images/contact.jpg'
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <div>
                 <h1 className="text-3xl font-bold text-center mt-40 ">CONTACT INFORMATION</h1>
                 <p className="text-center text-neutral-500 mb-10 "> For any query feel free to contact</p>

@@ -20,7 +20,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skills">
             <Zoom>
                 <h1 className="text-4xl font-bold text-center mt-40 ">SKILLS</h1>
             </Zoom>
