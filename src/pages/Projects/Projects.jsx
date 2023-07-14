@@ -1,9 +1,8 @@
+import './Projects.css'
+import bghome from '../../images/bghome.jpg'
 import Meta from 'antd/es/card/Meta';
 import railway from '../../images/railway.jpg'
 import { Button, Card } from 'antd';
-import shine from '../../images/Shine.png'
-import chef from '../../images/chef.png'
-import little from '../../images/little.png'
 import Zoom from 'react-reveal/Zoom';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import { useState } from 'react';
@@ -11,12 +10,12 @@ import { useEffect } from 'react';
 const Projects = () => {
     const [projects, setProjects] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('project.json')
-        .then(res => res.json())
-        .then(data => setProjects(data))
+            .then(res => res.json())
+            .then(data => setProjects(data))
 
-    },[])
+    }, [])
     return (
 
         <>
@@ -28,17 +27,30 @@ const Projects = () => {
 
             </div>
             <Zoom>
-                <div className='mt-20 grid grid-cols lg:grid-cols-3 gap-2 justify-items-center justify-center'>
+
+
+
+
+
+                <div className='mt-20 grid grid-cols lg:grid-cols-3 gap-2 justify-items-center justify-center text-white'>
                     {
                         projects.map(project => <Card key={project._id}
+                            
                             hoverable
                             style={{
-                                width: 300,
+                                
+                                width: 370,
+                                backgroundImage: `url(${bghome})`, backgroundRepeat: 'no-repeat',
+                                backgroundSize: 'cover',
+                               
+                                
+                                
+                                
                             }}
-                            cover={<img alt="example" src={project.picture} />}
+                            cover={<img className='h-48' alt="example" src={project.picture} />}
                         >
-                            <Meta title="Shine On Summer" description={project.description} />
-                            <div className='flex items-center mt-5 text-3xl text-sky-500'>
+                            <Meta className='text-white' title={project.name} description={project.description} />
+                            <div className='flex items-center mt-5 text-3xl text-blue-800'>
                                 <FaArrowAltCircleRight></FaArrowAltCircleRight>
                                 <Button type="link"><a href={project.link} target="blank">Please Visit The Site Here</a></Button>
                             </div>

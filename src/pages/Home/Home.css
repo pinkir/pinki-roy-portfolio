@@ -1,0 +1,9 @@
+.bg{
+    
+    background-image: url(../../images/bgh.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}

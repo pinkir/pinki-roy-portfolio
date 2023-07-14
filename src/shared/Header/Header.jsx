@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <nav className='col lg:flex justify-around items-center p-5 text-white bg-black bg-opacity-50 fixed z-10 w-full mx-auto'>
-                <h3 className='text-3xl font-bold'>PINKI ROY</h3>
+                <Link to='home'><h3 className='text-3xl font-bold'>PINKI ROY</h3></Link>
                 <div className='text-base'>
                     <Link to='home' spy={true} smooth={true} offset={-100} duration={500}  className='mr-4'>Home</Link>
                     <Link to='about' spy={true} smooth={true} offset={-100} duration={500} className='mr-4'>About</Link>

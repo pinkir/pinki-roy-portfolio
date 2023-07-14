@@ -4,15 +4,15 @@ const Contact = () => {
     return (
         <div id='contact'>
             <div>
-                <h1 className="text-3xl font-bold text-center mt-40 ">CONTACT INFORMATION</h1>
+                <h1 className="text-3xl text-white font-bold text-center pt-40 ">CONTACT INFORMATION</h1>
                 <p className="text-center text-neutral-500 mb-10 "> For any query feel free to contact</p>
             </div>
-            
+
             <div className='col lg:flex justify-center gap-10 '>
                 <div className='drop-shadow-lg'>
                     <img className='h-[300px]   ' src={contact} alt="" />
                 </div>
-                <div className='pt-12'>
+                <div className='pt-12 text-white'>
                     <h3 className="text-3xl font-bold">Find Me On</h3>
                     <p className='text-neutral-500'></p>
                     <p className='flex gap-5 text-3xl mt-6 text-center'><a href="https://www.linkedin.com/in/pinki-roy-57590317b/" target="blank"><FaLinkedin></FaLinkedin><span className='text-xs'>LinkedIn</span></a>

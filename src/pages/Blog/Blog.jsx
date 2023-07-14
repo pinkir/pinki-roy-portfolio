@@ -8,14 +8,14 @@ import { FaArrowAltCircleRight } from 'react-icons/fa';
 const Blog = () => {
     return (
         <>
-            <div id='blog' className='bg-gray-600 h-full bg-fixed mt-40' style={{ backgroundImage: `url(${blog})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'overlay' }}>
+            <div id='blog' className='bg-gray-600 h-full bg-fixed mt-40 ' style={{ backgroundImage: `url(${blog})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'overlay' }}>
                 <div className="text-center text-white pt-10 pb-20">
                     <h1 className="text-4xl font-bold text-center mt-40 ">BLOGS</h1>
                     <p className="text-center text-white mb-10 mt-3 "> Here are some latest Blogs</p>
                 </div>
 
             </div>
-            <div className='mt-20 grid grid-cols lg:grid-cols-3 gap-2 justify-items-center justify-center'>
+            <div className='mt-20 grid grid-cols lg:grid-cols-3 gap-2 justify-items-center justify-center pb-40'>
                 <Card
                     hoverable
                     style={{

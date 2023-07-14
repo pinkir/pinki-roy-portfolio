@@ -22,147 +22,163 @@ const Skills = () => {
     return (
         <div id="skills">
             <Zoom>
-                <h1 className="text-4xl font-bold text-center mt-40 ">SKILLS</h1>
+                <h1 className="text-4xl text-white font-bold text-center mt-40 ">SKILLS</h1>
             </Zoom>
             <p className="text-center text-neutral-500 mb-10 ">Using a combination of cutting-edge technologies and reliable open-source software I build user-focused,<br /> performant apps and websites for smartphones, tablets, and desktops.</p>
-            <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 justify-items-center justify-center text-center">
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 justify-items-center justify-center text-center text-white ">
                 <Bounce right>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
 
+
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={html} />}
                     >
-                        <p className="font-bold">HTML</p>
+                        <p className="font-bold text-white">HTML</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={css} />}
                     >
-                        <p className="font-bold">CSS</p>
+                        <p className="font-bold text-white">CSS</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
-                            width: 120,
+                            width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={js} />}
                     >
-                        <p className="font-bold">JavaScript</p>
+                        <p className="font-bold text-white">JavaScript</p>
 
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={bootstrap} />}
                     >
-                        <p className="font-bold">Bootstrap</p>
+                        <p className="font-bold text-white">Bootstrap</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={node} />}
                     >
-                        <p className="font-bold">Node.JS</p>
+                        <p className="font-bold text-white">Node.JS</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
-                        cover={<img className="h-20 p-2" alt="example" src={git} />}
+                        cover={<img className="h-20 p-2 bg-slate-400" alt="example" src={git} />}
                     >
-                        <p className="font-bold">Git</p>
+                        <p className="font-bold text-white">Git</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={mysql} />}
                     >
-                        <p className="font-bold">MySQl</p>
+                        <p className="font-bold text-white">MySQl</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={react} />}
                     >
-                        <p className="font-bold">React.JS</p>
+                        <p className="font-bold text-white">React.JS</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={MongoDB} />}
                     >
-                        <p className="font-bold">MongoDb</p>
+                        <p className="font-bold text-white">MongoDb</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={tailwind} />}
                     >
-                        <p className="font-bold">Tailwind</p>
+                        <p className="font-bold text-white">Tailwind</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
-                        cover={<img className="h-20 p-2" alt="example" src={github} />}
+                        cover={<img className="h-20 p-2 bg-slate-400" alt="example" src={github} />}
                     >
-                        <p className="font-bold">GitHub</p>
+                        <p className="font-bold text-white">GitHub</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={firebase} />}
                     >
-                        <p className="font-bold">Firebase</p>
+                        <p className="font-bold text-white">Firebase</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
-                        cover={<img className="h-20 p-2" alt="example" src={reactRouter} />}
+                        cover={<img className="h-16 p-2" alt="example" src={reactRouter} />}
                     >
-                        <p className="font-bold">React Router</p>
+                        <p className="font-bold text-white">React Router</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={figma} />}
                     >
-                        <p className="font-bold">Figma</p>
+                        <p className="font-bold text-white">Figma</p>
                     </Card>
                     <Card
+                        className="bg-transparent"
                         hoverable
                         style={{
                             width: 100,
                         }}
                         cover={<img className="h-20 p-2" alt="example" src={express} />}
                     >
-                        <p className="font-bold">Express</p>
+                        <p className="font-bold text-white">Express</p>
                     </Card>
                 </Bounce>
             </div>
