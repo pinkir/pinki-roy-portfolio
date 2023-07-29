@@ -42,6 +42,7 @@ const Projects = () => {
                                 width: 370,
                                 backgroundImage: `url(${bghome})`, backgroundRepeat: 'no-repeat',
                                 backgroundSize: 'cover',
+                                backgroundBlendMode: 'overlay'
                                
                                 
                                 
